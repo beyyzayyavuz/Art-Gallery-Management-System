@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Artist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Artist.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\ArtGalleryManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\ArtGalleryManagement.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Artist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Artist.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Painting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Painting.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\GalleryStaff.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\GalleryStaff.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\GalleryStaff.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\GalleryStaff.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Exhibition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Exhibition.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Admin.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Admin.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Visitor1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Visitor1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Visitor1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Visitor1.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\user.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Exhibition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Exhibition.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\user.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{82449BC1-43F6-4C93-B2C2-81EDC2725D08}|ArtGalleryManagement\\ArtGalleryManagement.vcxproj|solutionrelative:ArtGalleryManagement\\Painting.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 187,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ArtGalleryManagement.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\ArtGalleryManagement.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\ArtGalleryManagement.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\ArtGalleryManagement.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\ArtGalleryManagement.cpp",
+              "ViewState": "AQIAABQBAAAAAAAAAAAAAC0BAABqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T23:17:34.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Artist.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Artist.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Artist.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Artist.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\Artist.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T23:23:30.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GalleryStaff.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\GalleryStaff.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\GalleryStaff.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\GalleryStaff.h",
+              "RelativeToolTip": "ArtGalleryManagement\\GalleryStaff.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-09T07:29:05.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Painting.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Painting.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Painting.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Painting.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\Painting.cpp",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T23:27:25.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Exhibition.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Exhibition.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Exhibition.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Exhibition.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\Exhibition.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-20T23:26:20.323Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Artist.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Artist.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Artist.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Artist.h",
+              "RelativeToolTip": "ArtGalleryManagement\\Artist.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-20T23:22:08.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Exhibition.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Exhibition.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Exhibition.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Exhibition.h",
+              "RelativeToolTip": "ArtGalleryManagement\\Exhibition.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAC8AAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-20T23:25:44.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "user.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\user.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\user.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\user.h",
+              "RelativeToolTip": "ArtGalleryManagement\\user.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-08T12:25:19.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Admin.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Admin.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Admin.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Admin.h",
+              "RelativeToolTip": "ArtGalleryManagement\\Admin.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-09T07:22:55.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Visitor1.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Visitor1.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Visitor1.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Visitor1.h",
+              "RelativeToolTip": "ArtGalleryManagement\\Visitor1.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-08T16:09:54.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "user.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\user.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\user.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\user.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\user.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T12:29:55.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Visitor1.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Visitor1.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Visitor1.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Visitor1.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\Visitor1.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-08T16:11:44.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GalleryStaff.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\GalleryStaff.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\GalleryStaff.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\GalleryStaff.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\GalleryStaff.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-09T07:30:04.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Painting.h",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Painting.h",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Painting.h",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Painting.h",
+              "RelativeToolTip": "ArtGalleryManagement\\Painting.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-20T23:27:08.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cpp",
+              "DocumentMoniker": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Admin.cpp",
+              "RelativeDocumentMoniker": "ArtGalleryManagement\\Admin.cpp",
+              "ToolTip": "C:\\Users\\ugur yavuz\\Desktop\\ArtGalleryManagement.updatedagain\\ArtGalleryManagement\\ArtGalleryManagement\\Admin.cpp",
+              "RelativeToolTip": "ArtGalleryManagement\\Admin.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-09T07:27:55.921Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
