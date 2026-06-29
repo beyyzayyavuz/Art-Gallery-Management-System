@@ -2,21 +2,20 @@
 #define GALLERYSTAFF_H
 
 #include "user.h"
-#include <iostream>
 #include <set>
 #include <string>
-using namespace std;
 
 class GalleryStaff : public user {
 public:
-    GalleryStaff(const string& username);
-    //Declaring overriding function
+    GalleryStaff(const std::string& username);
+
+    // Overriding function
     void displayMenu() const override;
 
-    // Modified manageInventory function with default argument
-    void manageInventory(const set<string>& inventoryList = {});
+    // manageInventory with a default argument
+    void manageInventory(const std::set<std::string>& inventoryList = {});
 
-    void personnels(const set<string>& personnelNames);
+    void personnels(const std::set<std::string>& personnelNames);
 };
 
 #endif /* GALLERYSTAFF_H */

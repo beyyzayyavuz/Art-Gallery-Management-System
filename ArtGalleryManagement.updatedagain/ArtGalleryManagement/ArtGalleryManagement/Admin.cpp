@@ -1,4 +1,7 @@
 #include "Admin.h"
+#include <iostream>
+
+using namespace std;
 
 Admin::Admin(const string& _username)
     : user(_username) {}

@@ -1,4 +1,4 @@
-#include "artist.h"
+#include "Artist.h"
 #include <iostream>
 
 Artist::Artist(const std::string& name, const std::string& dateOfBirth, const std::string& nationality)

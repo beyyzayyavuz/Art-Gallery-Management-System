@@ -1,0 +1,98 @@
+@startuml
+' UML class diagram for the Art Gallery Management System.
+' Render at https://www.plantuml.com/plantuml or with the PlantUML VS Code extension.
+
+abstract class user {
+  - username : string
+  + user(username : string)
+  + {abstract} displayMenu() : void
+}
+
+class Visitor1 {
+  + Visitor1()
+  + displayMenu() : void
+  + searchPaintings(searchQuery : string, filename : string) : void
+  + viewExhibitionMenu(exhibitions : vector<Exhibition>) : void
+  + viewExhibitionDetails(exhibition : Exhibition) : void
+  + viewPaintingDetails(exhibition : Exhibition, paintingName : string) : void
+}
+
+class Admin {
+  + Admin(username : string)
+  + displayMenu() : void
+}
+
+class GalleryStaff {
+  + GalleryStaff(username : string)
+  + displayMenu() : void
+  + manageInventory(inventoryList : set<string>) : void
+  + personnels(personnelNames : set<string>) : void
+}
+
+class Artist {
+  - name : string
+  - dateOfBirth : string
+  - nationality : string
+  + Artist(name : string, dateOfBirth : string, nationality : string)
+  + getName() : string
+  + setName(newName : string) : void
+  + getDateOfBirth() : string
+  + setDateOfBirth(newDateOfBirth : string) : void
+  + getNationality() : string
+  + setNationality(newNationality : string) : void
+  + displayDetails() : void
+  ~ friend displayMessage(artist : Artist, quota : string)
+}
+
+class Exhibition {
+  - name : string
+  - startDate : string
+  - endDate : string
+  - location : string
+  - artist : Artist
+  - paintings : vector<string>
+  + Exhibition(name, startDate, endDate, location, artistName, artistDateOfBirth, artistNationality)
+  + getExhibitionName() : string
+  + setExhibitionName(newName : string) : void
+  + getStartDate() : string
+  + setStartDate(newStartDate : string) : void
+  + getEndDate() : string
+  + setEndDate(newEndDate : string) : void
+  + getLocation() : string
+  + setLocation(newLocation : string) : void
+  + getArtist() : Artist
+  + displayDetails() : void
+  + addPainting(paintingTitle : string) : void
+  + removePainting(paintingTitle : string) : bool
+  + clearPaintings() : void
+}
+
+class Painting {
+  - exhibitionName : string
+  - title : string
+  - yearProduced : int
+  - price : string
+  + Painting(exhibitionName : string, title : string, yearProduced : int, price : string)
+  + getExhibitionName() : string
+  + setExhibitionName(newName : string) : void
+  + getTitle() : string
+  + setTitle(newTitle : string) : void
+  + getYearProduced() : int
+  + setYearProduced(newYearProduced : int) : void
+  + getPrice() : string
+  + setPrice(newPrice : string) : void
+  + setPrice(discountRate : double) : void
+  + {static} displayPaintingDetails(painting : Painting) : void
+}
+
+' Inheritance (is-a)
+user <|-- Visitor1
+user <|-- Admin
+user <|-- GalleryStaff
+
+' Composition (Exhibition HAS an Artist)
+Exhibition *-- "1" Artist
+
+' Association (a Painting is linked to an exhibition by name)
+Exhibition ..> Painting : by name
+@enduml

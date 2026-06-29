@@ -1,4 +1,7 @@
 #include "GalleryStaff.h"
+#include <iostream>
+
+using namespace std;
 
 GalleryStaff::GalleryStaff(const string& username)
     : user(username) {}

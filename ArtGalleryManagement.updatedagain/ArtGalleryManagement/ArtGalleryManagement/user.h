@@ -2,15 +2,16 @@
 #define USER_H
 
 #include <string>
-using namespace std;
 
 class user {
 protected:
-    string username;
+    std::string username;
 
 public:
-    user(const string& username);
-    // displayMenu() is an overriding function. 
+    user(const std::string& username);
+    virtual ~user() = default; // Virtual destructor so deleting via base pointer is safe
+
+    // displayMenu() is a pure virtual (overriding) function.
     // Using the virtual keyword for runtime polymorphism.
     virtual void displayMenu() const = 0;
 };

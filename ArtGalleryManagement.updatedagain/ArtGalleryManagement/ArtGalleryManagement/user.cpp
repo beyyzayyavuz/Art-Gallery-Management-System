@@ -1,6 +1,4 @@
 #include "user.h"
 
-user::user(const string& username)
+user::user(const std::string& username)
     : username(username) {}
-
-

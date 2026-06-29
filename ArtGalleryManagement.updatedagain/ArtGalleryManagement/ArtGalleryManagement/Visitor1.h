@@ -2,15 +2,9 @@
 #define VISITOR_H
 
 #include "user.h"
-#include <iostream>
-#include <fstream>
-#include <vector>
-#include <algorithm>
 #include "Exhibition.h"
-
-
-
-using namespace std;
+#include <string>
+#include <vector>
 
 class Visitor1 : public user {
 public:
@@ -18,15 +12,13 @@ public:
 
     void displayMenu() const override;
 
-    void searchPaintings(const string& searchQuery, const string& filename);
+    void searchPaintings(const std::string& searchQuery, const std::string& filename);
 
-    void viewExhibitionMenu(const vector<Exhibition>& exhibitions) const;
+    void viewExhibitionMenu(const std::vector<Exhibition>& exhibitions) const;
 
     void viewExhibitionDetails(const Exhibition& exhibition) const;
 
-    void viewPaintingDetails(const Exhibition& exhibition, const string& paintingName) const;
-
-    void viewPaintingDetails(const Exhibition& exhibition) const;
+    void viewPaintingDetails(const Exhibition& exhibition, const std::string& paintingName) const;
 };
 
 #endif /* VISITOR_H */

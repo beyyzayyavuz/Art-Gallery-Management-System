@@ -3,9 +3,11 @@
 #include <string>
 #include <algorithm> // Provides various algorithms that operate collection of elements. (There was a need for the find() and search() functions to be called in main())
 #include <set> // Provides the definition of the std::set container, which is a sorted associative container.
-#include "artist.h"
+#include <limits> // For std::numeric_limits used when clearing the input buffer
+#include "Artist.h"
 #include "user.h"
-#include "painting.h"
+#include "Painting.h"
+#include "Exhibition.h"
 #include "Visitor1.h"
 #include "Admin.h"
 #include "GalleryStaff.h"
@@ -21,9 +23,6 @@ user* login() {
 
     int choice;
     cin >> choice;
-    //THE PASSWORDS OF ADMIN AND GALLERY STAFF ARE BELOW:
-    //The admin's password is: 1234
-    //The gallery staff's password is: 4321.
     if (choice == 1) {
         return new Visitor1();
     }
@@ -91,8 +90,6 @@ void loadPaintingsFromFile(Exhibition& exhibition, const std::string& filename) 
         std::cout << "Unable to open file for loading paintings." << std::endl;
     }
 }
-// Declare a set named 'paintings' to store instances of the 'Painting' class.
-std::set<Painting> paintings;
 int main() {
     // This creates an Exhibition object named 'exhibition'. 
     // It's specified that only paintings added by the admin user are included in this exhibition, assuming other exhibitions are already full. 
@@ -213,10 +210,9 @@ int main() {
                 // Clear any previous paintings in the exhibition
                 exhibitions[choice - 1].clearPaintings();
 
-                // Add paintings to the selected exhibition
-                for (const Painting& painting : paintings) {
-                    exhibitions[choice - 1].addPainting(paintings[choice - 1].getTitle());
-                }
+                // Add the painting that corresponds to the selected exhibition
+                // (paintings[i] is aligned 1:1 with exhibitions[i]).
+                exhibitions[choice - 1].addPainting(paintings[choice - 1].getTitle());
 
                 // Display details of the selected exhibition
                 visitor1->viewExhibitionDetails(exhibitions[choice - 1]);

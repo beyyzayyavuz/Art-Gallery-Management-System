@@ -1,35 +1,32 @@
 #ifndef PAINTING_H
 #define PAINTING_H
 
-#include "Exhibition.h"
 #include <string>
-#include <iostream>
-#include <set>
 
-using namespace std;
-
-class Painting : public Exhibition {
+// A Painting is a standalone entity. It is associated with an exhibition by
+// name, but it is NOT a kind of Exhibition (composition/association, not inheritance).
+class Painting {
 private:
-    string title;
+    std::string exhibitionName;
+    std::string title;
     int yearProduced;
-    string price;
-    // Declaring a static variable: 
-    static std::set<Painting> paintings;
-    string exhibitionName; 
+    std::string price;
 
 public:
-    Painting(const string& name, const string& title, int yearProduced, const string& price);
-    string getTitle() const;
-    void setTitle(const string& newTitle);
+    Painting(const std::string& exhibitionName, const std::string& title, int yearProduced, const std::string& price);
+
+    std::string getExhibitionName() const;
+    void setExhibitionName(const std::string& newName = "Unknown Exhibition"); // Default argument
+    std::string getTitle() const;
+    void setTitle(const std::string& newTitle);
     int getYearProduced() const;
     void setYearProduced(int newYearProduced);
-    string getPrice() const;
-    void setPrice(const string& newPrice); //Declaring an overloading function
-    void setPrice(double discountRate);
-    // Declaring an static function: displayPaintingDetails(const Painting& painting)
+    std::string getPrice() const;
+    void setPrice(const std::string& newPrice); // Overloaded setter
+    void setPrice(double discountRate);          // Overloaded setter
+
+    // Static helper to display painting details
     static void displayPaintingDetails(const Painting& painting);
-    // Function with default argument 
-    void setExhibitionName(const string& newName = "Unknown Exhibition"); 
 };
 
 #endif /* PAINTING_H */

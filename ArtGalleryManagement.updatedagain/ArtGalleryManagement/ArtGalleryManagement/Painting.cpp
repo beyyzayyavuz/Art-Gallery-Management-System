@@ -1,14 +1,22 @@
 #include "Painting.h"
-#include <iomanip> 
+#include <iostream>
+#include <stdexcept>
 
-// Static member variable initialization
-std::set<Painting> Painting::paintings;
+using namespace std;
 
 // Constructor
-Painting::Painting(const string& name, const string& title, int yearProduced, const string& price)
-    : Exhibition(name, "", "", "", "", "", ""), title(title), yearProduced(yearProduced), price(price) {}
+Painting::Painting(const string& exhibitionName, const string& title, int yearProduced, const string& price)
+    : exhibitionName(exhibitionName), title(title), yearProduced(yearProduced), price(price) {}
 
 // Getter and setter functions
+string Painting::getExhibitionName() const {
+    return exhibitionName;
+}
+
+void Painting::setExhibitionName(const string& newName) {
+    exhibitionName = newName;
+}
+
 string Painting::getTitle() const {
     return title;
 }
@@ -33,13 +41,17 @@ void Painting::setPrice(const string& newPrice) {
     price = newPrice;
 }
 
-// Overloaded function to set discounted price
+// Overloaded function to apply a discount to the price.
 void Painting::setPrice(double discountRate) {
-    // Assuming price is a numerical value represented as a string
-    // Calculate discounted price and update the price string
-    double originalPrice = stod(price);
-    double discountedPrice = originalPrice * (1 - discountRate);
-    price = to_string(discountedPrice);
+    try {
+        double originalPrice = stod(price);
+        double discountedPrice = originalPrice * (1 - discountRate);
+        price = to_string(discountedPrice);
+    }
+    catch (const std::exception&) {
+        // Price was not a numeric string; leave it unchanged.
+        cout << "Warning: price \"" << price << "\" is not numeric; discount not applied." << endl;
+    }
 }
 
 // Static function to display painting details
@@ -48,13 +60,4 @@ void Painting::displayPaintingDetails(const Painting& painting) {
     cout << "Title: " << painting.getTitle() << endl;
     cout << "Year Produced: " << painting.getYearProduced() << endl;
     cout << "Price: " << painting.getPrice() << endl;
-}
-
-// Set exhibition name function/ function with default argument 
-/*You can add a function with default parameter in this code.
-We wouldn't hope to add the setExhibitionName function 
-that allows us to enjoy the default gallery name "Unknown Exhibition"
-if its efficiency is not gained.*/
-void Painting::setExhibitionName(const string& newName) {
-    exhibitionName = newName;
 }

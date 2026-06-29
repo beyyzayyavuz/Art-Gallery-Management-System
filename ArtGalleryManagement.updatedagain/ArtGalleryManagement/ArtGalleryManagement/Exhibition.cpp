@@ -1,9 +1,15 @@
 #include "Exhibition.h"
 #include <iostream>
 #include <algorithm>
-// Constructor
-Exhibition::Exhibition(const string& name, const string& startDate, const string& endDate, const string& location, const string& artistName, const string& artistDateOfBirth, const string& artistNationality)
-    : Artist(artistName, artistDateOfBirth, artistNationality), name(name), startDate(startDate), endDate(endDate), location(location) {}
+
+using namespace std;
+
+// Constructor: builds the featured Artist via composition.
+Exhibition::Exhibition(const string& name, const string& startDate, const string& endDate,
+    const string& location, const string& artistName,
+    const string& artistDateOfBirth, const string& artistNationality)
+    : name(name), startDate(startDate), endDate(endDate), location(location),
+    artist(artistName, artistDateOfBirth, artistNationality) {}
 
 // Getter and setter functions
 string Exhibition::getExhibitionName() const {
@@ -38,9 +44,12 @@ void Exhibition::setLocation(const string& newLocation) {
     location = newLocation;
 }
 
-// Declaring displayDetails function
+const Artist& Exhibition::getArtist() const {
+    return artist;
+}
+
 void Exhibition::displayDetails() const {
-    Artist::displayDetails();
+    artist.displayDetails(); // Delegate to the composed Artist
     cout << "Exhibition Name: " << name << endl;
     cout << "Start Date: " << startDate << ", End Date: " << endDate << endl;
     cout << "Location: " << location << endl;
@@ -50,10 +59,8 @@ void Exhibition::displayDetails() const {
     }
 }
 
-// Inside the addPainting function
 void Exhibition::addPainting(const string& paintingTitle) {
     // Check if the painting already exists in the exhibition
-    // It is used to search for an element with the value paintingTitle in the range defined by the iterators paintings.begin() and paintings.end().
     auto it = find(paintings.begin(), paintings.end(), paintingTitle);
     if (it != paintings.end()) {
         cout << "Painting \"" << paintingTitle << "\" already exists in the exhibition." << endl;
@@ -63,7 +70,6 @@ void Exhibition::addPainting(const string& paintingTitle) {
     }
 }
 
-// Inside the removePainting function
 bool Exhibition::removePainting(const string& paintingTitle) {
     auto it = find(paintings.begin(), paintings.end(), paintingTitle);
     if (it != paintings.end()) {

@@ -2,14 +2,13 @@
 #define ADMIN_H
 
 #include "user.h"
-#include <iostream>
-using namespace std;
+#include <string>
 
 class Admin : public user {
 public:
-    Admin(const string& _username);
-    
-    // Declaring an overriding function
+    Admin(const std::string& _username);
+
+    // Overriding function
     void displayMenu() const override;
 };
 
