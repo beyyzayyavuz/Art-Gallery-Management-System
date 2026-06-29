@@ -1,0 +1,41 @@
+digraph UML {
+  rankdir=TB;
+  nodesep=0.6;
+  ranksep=0.9;
+  node [shape=record, fontname="Helvetica", fontsize=10];
+  edge [fontname="Helvetica", fontsize=9];
+
+  user [label="{\<\<abstract\>\> user|- username: string\l|+ user(username: string)\l+ ~user()\l+ displayMenu(): void \{abstract\}\l}"];
+
+  Visitor1 [label="{Visitor1|\l|+ Visitor1()\l+ displayMenu(): void\l+ searchPaintings(searchQuery, filename): void\l+ viewExhibitionMenu(exhibitions): void\l+ viewExhibitionDetails(exhibition): void\l+ viewPaintingDetails(exhibition, paintingName): void\l}"];
+  Admin [label="{Admin|\l|+ Admin(username: string)\l+ displayMenu(): void\l}"];
+  GalleryStaff [label="{GalleryStaff|\l|+ GalleryStaff(username: string)\l+ displayMenu(): void\l+ manageInventory(inventoryList): void\l+ personnels(personnelNames): void\l}"];
+
+  Gallery [label="{Gallery|- artists: vector\<Artist\>\l- exhibitions: vector\<Exhibition\>\l- paintings: vector\<Painting\>\l- featured: Exhibition\l|+ seedDefaults(): void\l+ loadFromFiles(): bool\l+ saveToFiles(): void\l+ getArtists(): vector\<Artist\>\l+ getExhibitions(): vector\<Exhibition\>\l+ getPaintings(): vector\<Painting\>\l+ getFeaturedExhibition(): Exhibition\l+ addPaintingToCatalog(painting): void\l}"];
+
+  Artist [label="{Artist|- name: string\l- dateOfBirth: string\l- nationality: string\l|+ Artist(name, dateOfBirth, nationality)\l+ getName() / setName()\l+ getDateOfBirth() / setDateOfBirth()\l+ getNationality() / setNationality()\l+ displayDetails(): void\l~ friend displayMessage(artist, quota)\l}"];
+
+  Exhibition [label="{Exhibition|- name: string\l- startDate: string\l- endDate: string\l- location: string\l- artist: Artist\l- paintings: vector\<string\>\l|+ Exhibition(name, startDate, endDate, location, artistName, artistDOB, artistNationality)\l+ getExhibitionName() / setExhibitionName()\l+ getStartDate()..getLocation() / setters\l+ getArtist(): Artist\l+ displayDetails(): void\l+ addPainting(title): void\l+ removePainting(title): bool\l+ clearPaintings(): void\l}"];
+
+  Painting [label="{Painting|- exhibitionName: string\l- title: string\l- yearProduced: int\l- price: string\l|+ Painting(exhibitionName, title, yearProduced, price)\l+ getExhibitionName() / setExhibitionName()\l+ getTitle() / setTitle()\l+ getYearProduced() / setYearProduced()\l+ getPrice() / setPrice(newPrice)\l+ setPrice(discountRate: double)\l+ displayPaintingDetails(painting) \{static\}\l}"];
+
+  Console [label="{\<\<utility\>\> Console|+ readInt(prompt): int\l+ readLine(prompt): string\l+ title() / separator()\l+ success() / error() / info()\l}"];
+
+  // Inheritance (is-a): hollow triangle
+  edge [arrowhead=empty, color="#333333"];
+  Visitor1 -> user;
+  Admin -> user;
+  GalleryStaff -> user;
+
+  // Composition (has-a): filled diamond on the whole side
+  edge [arrowhead=diamond, color="#1d6fb8"];
+  Artist -> Exhibition;
+  Artist -> Gallery;
+  Exhibition -> Gallery;
+  Painting -> Gallery;
+
+  // Association
+  edge [arrowhead=vee, style=dashed, color="#777777"];
+  Exhibition -> Painting [label=" by name"];
+
+}

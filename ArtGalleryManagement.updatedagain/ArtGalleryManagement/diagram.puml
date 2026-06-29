@@ -5,7 +5,30 @@
 abstract class user {
   - username : string
   + user(username : string)
+  + ~user()
   + {abstract} displayMenu() : void
+}
+
+class Gallery {
+  - artists : vector<Artist>
+  - exhibitions : vector<Exhibition>
+  - paintings : vector<Painting>
+  - featured : Exhibition
+  + seedDefaults() : void
+  + loadFromFiles() : bool
+  + saveToFiles() : void
+  + getArtists() : vector<Artist>
+  + getExhibitions() : vector<Exhibition>
+  + getPaintings() : vector<Painting>
+  + getFeaturedExhibition() : Exhibition
+  + addPaintingToCatalog(painting : Painting) : void
+}
+
+class Console <<utility>> {
+  + readInt(prompt : string) : int
+  + readLine(prompt : string) : string
+  + title() / separator()
+  + success() / error() / info()
 }
 
 class Visitor1 {
@@ -95,4 +118,9 @@ Exhibition *-- "1" Artist
 
 ' Association (a Painting is linked to an exhibition by name)
 Exhibition ..> Painting : by name
+
+' Gallery is the aggregate root that owns the catalog
+Gallery *-- "*" Artist
+Gallery *-- "*" Exhibition
+Gallery *-- "*" Painting
 @enduml
