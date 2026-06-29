@@ -130,7 +130,9 @@
     <ClCompile Include="Admin.cpp" />
     <ClCompile Include="ArtGalleryManagement.cpp" />
     <ClCompile Include="Artist.cpp" />
+    <ClCompile Include="Console.cpp" />
     <ClCompile Include="Exhibition.cpp" />
+    <ClCompile Include="Gallery.cpp" />
     <ClCompile Include="GalleryStaff.cpp" />
     <ClCompile Include="Painting.cpp" />
     <ClCompile Include="user.cpp" />
@@ -139,7 +141,9 @@
   <ItemGroup>
     <ClInclude Include="Admin.h" />
     <ClInclude Include="Artist.h" />
+    <ClInclude Include="Console.h" />
     <ClInclude Include="Exhibition.h" />
+    <ClInclude Include="Gallery.h" />
     <ClInclude Include="GalleryStaff.h" />
     <ClInclude Include="Painting.h" />
     <ClInclude Include="user.h" />

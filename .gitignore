@@ -55,3 +55,9 @@ cmake-build-*/
 # OS files
 .DS_Store
 Thumbs.db
+
+# Generated runtime data (the app re-seeds these on first run)
+paintings.txt
+artists.csv
+exhibitions.csv
+paintings.csv
