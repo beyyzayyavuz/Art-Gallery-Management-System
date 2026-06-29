@@ -51,7 +51,7 @@ void Visitor1::searchPaintings(const string& searchQuery, const string& filename
 // Function to display the menu of available exhibitions for viewing
 void Visitor1::viewExhibitionMenu(const vector<Exhibition>& exhibitions) const {
     cout << "Select an exhibition to view details:" << endl;
-    for (int i = 0; i < exhibitions.size(); ++i) {
+    for (size_t i = 0; i < exhibitions.size(); ++i) {
         cout << i + 1 << ". " << exhibitions[i].getExhibitionName() << endl;
     }
     cout << exhibitions.size() + 1 << ". Return to main menu" << endl;
